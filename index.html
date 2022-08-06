@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
     <title>Home ::</title>
 </head>
@@ -66,13 +67,14 @@
           </div>
         </div>
       </nav>
+      <!--
+        End of navbar
 
+      -->
       <br>
       <h2 class="h2 is-black"><b>Federal Civil Service Commision</b></h2>
       <p><i>......building a productive and ethical service</i></p>
       <br>
-      
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, aperiam. Maiores rerum, minus tempore officia odit a rem obcaecati repellendus in nostrum, doloremque saepe. Numquam iste nulla odit sit aliquam?</p>
 
       <br>
       <div class="columns">
@@ -83,17 +85,46 @@
                     <p>Login Form:</p>
                 </div>
                 <div class="card-content">
-                    <form action="" class="form">
-                        <label for="">E-mail</label>
-                        <input type="text" placeholder="email"><br>&nbsp;
-                        <label for="">Password</label>
-                        <input type="password" placeholder="password">
-                    </form>
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control has-icons-left has-icons-right">
+                          <input class="input" type="email" placeholder="Email input" value="email">
+                          <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                          </span>
+                          <span class="icon is-small is-right">
+                            <i class="fas fa-exclamation-triangle"></i>
+                          </span>
+                        </div>
+                      </div>
+                      
+                      <div class="field">
+                        <label class="label">Password</label>
+                        <div class="control has-icons-left has-icons-right">
+                          <input class="input" type="text" placeholder="password" value="password">
+                          <span class="icon is-small is-left">
+                            <i class="fas fa-user"></i>
+                          </span>
+                          <span class="icon is-small is-right">
+                            <i class="fas fa-check"></i>
+                          </span>
+                        </div>
+                      </div>
+                      
+                    <div class="field">
+                        <div class="control">
+                          <label class="checkbox">
+                            <input type="checkbox">
+                            Remember me
+                          </label>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="column"></div>
-        </div>
+    </div>
 
       
       <br>
