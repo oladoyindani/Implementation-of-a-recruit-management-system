@@ -27,3 +27,7 @@ h1{
 .is-black{
     color: black;
 }
+
+.card{
+    opacity: 90%;
+}
